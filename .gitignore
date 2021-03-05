@@ -1,5 +1,8 @@
 .DS_Store
 
+project-dog-classification/dogImages/
+project-dog-classification/lfw/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
