@@ -1,5 +1,7 @@
 .DS_Store
 
+*.pt
+
 p2-dog-classification/dogImages/
 p2-dog-classification/lfw/
 
