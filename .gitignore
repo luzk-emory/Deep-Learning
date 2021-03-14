@@ -1,7 +1,8 @@
 .DS_Store
 
+*.pkl
 *.pt
-
+p4-face-generation/processed_celeba_small
 p2-dog-classification/dogImages/
 p2-dog-classification/lfw/
 
