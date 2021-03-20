@@ -14217,7 +14217,7 @@ Epoch:   10/10    Loss: 3.267853300205138
 <ul>
 <li>Model structure. The RNN structure is mainly borrowed from <code>Sentiment_RNN_Solution.ipynb</code>. </li>
 <li>One more comment about the dropout layer before the final fully connected layer. Previously, I added the dropout layer and it took more than 15 epoch and barely reached a loss below 3.5. Then, I removed it and the training becomes much faster. But, I would say this is just a trick. Dropout prevents overfitting, and overfitting is usually correalted with low training loss.</li>
-<li><code>sequence_lengths = 15</code> Given the regular length of a sentence, 15 seems to be an okay choice. If the length is too small, useful information is lost; if the length is too high, training the model becomes more costly. I also tried a length of 10, whose performance is kindly of similar.</li>
+<li><code>sequence_lengths = 15</code> Given the regular length of a sentence, 15 seems to be an okay choice. If the length is too small, useful information is lost; if the length is too high, training the model becomes more costly. I also tried a length of 10, whose performance is kind of similar.</li>
 <li><code>hidden_dim = 256</code> It seems this number works well. A higher hidden dimension can make the model more power, but will lower the training speed. I also tried 512, which makes the training slower. For this task, 256 seems to be fine.</li>
 <li><code>n_layers = 2</code> Usually, this number is 2 or 3. I use 2 here. </li>
 </ul>
